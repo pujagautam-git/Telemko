@@ -1,0 +1,139 @@
+.testimonial-form-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px;
+  background: linear-gradient(to right, #e8ecef 50%, #1e1f22 50%);
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.testimonial-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  margin: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+   /* Full center */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.quote {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.testimonial-pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.testimonial-pagination button {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.testimonial-pagination button.active {
+  background-color: #005eb8;
+  color: white;
+  border-color: #005eb8;
+}
+
+
+.form-box {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  margin: 20px;
+  color: #fff;
+}
+
+.form-box h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.form-box p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  color: #000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.progress {
+  background-color: #005eb8;
+  color: #fff;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-card h3 {
+  margin-bottom: 15px;
+}
+
+.form-card label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.form-card input[type="radio"] {
+  margin-right: 8px;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-card button:hover {
+  background-color: #1d4ed8;
+}
